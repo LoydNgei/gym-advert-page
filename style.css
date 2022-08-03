@@ -1,60 +1,76 @@
+*{
+  box-sizing:border-box;
+  background-color:#eee;
+}
+
 #nav-bar{
-    position:fixed;
-    text-align:center;
-    padding:20px;
-    margin:0 auto;
-    }
-  
-  li{
-    display:inline;
-    text-transform:uppercase; 
+  text-align:center;
+  margin:10px auto;
+  position:absolute;
+  top:0;
+  right:100;
   }
+
   
-  .nav-link{
-  margin:30px;
-  font-weight:bold;
-  font-family:sans-serif;
+li{
+display:inline; text-transform:uppercase; 
+}
+
+.nav-link{
+margin:30px;
+font-weight:bold;
+font-family:sans-serif;
+}
+
+#email{
+  width:300px;
+  height:30px;
+  border-width:2px;
+  border-radius:8px;
+  margin:auto;
+  margin-top:0px;
+}
+
+#submit{
+  margin:20px;
+  height:30px;
+  width:150px;
+  background-color:#2ea;
+}
+
+@media (min-width:400px){
+  #header{
+    font-size:18px;
   }
-  
-  #email{
-    width:300px;
-    height:30px;
-    border-width:2px;
-    border-radius:8px;
-  
+}
+
+#form{
+  text-align:center; 
+}
+
+
+#header-img{
+  height:150px;
+  width:200px;
+  margin:6px;
   }
-  
-  #submit{
-    margin:20px;
-    text-align:left;
-    height:40px;
-    width:100px;
-    background-color:#2ea;
-    
-  
-  }
-  
-  
-    @media (min-width:400px){
-    #header{
-      font-size:18px;
-    }
-  }
-  
-  #form{
-    display:flex;
-    padding:10px;  
-  }
-  
-  
-  .navigation{
-    background-color:rgba(169 169 169);
-  }
-  
-  .descriptions{
-   background-color:#D2494C;
-  }
-  
-  h3{
-    text-align:center;
-  }
+
+.head{
+text-align:center;
+font-weight:bold;
+font-size:30px;
+font-family: 'Lobster', cursive;
+margin-top:-70px;
+ }
+
+section{
+   margin-top:30px;
+ }
+
+ .additions{
+   font-size:24px;
+   width: 100%;
+   padding: 20px;
+   font-family:;
+
+ }
